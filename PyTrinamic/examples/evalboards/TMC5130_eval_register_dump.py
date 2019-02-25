@@ -8,10 +8,10 @@ if __name__ == '__main__':
     pass
 
 import PyTrinamic
-from PyTrinamic.connections.serial_tmcl_interface import serial_tmcl_interface
-from PyTrinamic.evalboards.TMC5130_eval import TMC5130_eval
-from PyTrinamic.ic.TMC5130.TMC5130_register import TMC5130_register
-from PyTrinamic.ic.TMC5130.TMC5130_mask_shift import TMC5130_mask_shift
+#from PyTrinamic.connections.serial_tmcl_interface import serial_tmcl_interface
+#from PyTrinamic.evalboards.TMC5130_eval import TMC5130_eval
+#from PyTrinamic.ic.TMC5130.TMC5130_register import TMC5130_register
+#from PyTrinamic.ic.TMC5130.TMC5130_mask_shift import TMC5130_mask_shift
 
 PyTrinamic.showInfo()
 PyTrinamic.showAvailableComPorts()
